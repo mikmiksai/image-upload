@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="css/design.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <input id="fileInput" type="file" accept="jpg, .png" class="d--none" multiple>
+        <div class="card card-upload">
+            <div class="row">
+                <div class="col-6">
+                    <div class="select-img__wrapper">
+                        <p style="margin-bottom: 1rem;">Upload Images</p>
+                        <p style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--light-gray);"><span id="numSelectedImg">0</span>/<span>5</span></p>
+                        <label for="fileInput" class="file-input-btn">Browse</label>
+                    </div>
+                </div>
+                <div class="col-6 upload-list__wrapper">
+                    <div id="preview" class="preview">
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" id="submitBtn" class="btn btn--blue-outline" style="display: none;">Submit</button>
+                        <button type="button" id="editBtn" class="btn btn btn--blue-outline" style="display: none;">Edit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div id="uploadPreview"></div>
+        </div>
+    </div>
+
+    <script src="imageupload.js"></script>
+
+</body>
+
+
+</html>
