@@ -1,4 +1,4 @@
 # image-upload
 
 
-![Image Upload Preview](image-uploap-preview.PNG)
+![Image Upload Preview](image-upload-preview.PNG)
